@@ -1,0 +1,98 @@
+html { 
+  background: url("images/fondo_party.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	height: 2000px;
+	width: 3500px;
+}
+
+
+.header{
+	height: 250px;
+	width: 3000px;
+	/*background-color: black;*/
+	
+}
+
+.logo{
+	height: 200px;
+	width: 450px;
+	background: url("images/logo_party.gif") no-repeat center;
+	z-index: 1;
+}
+
+.item_personal{
+	height: 20vw;
+	width: 20vw;
+	/*background-color: black;*/
+	background: url("images/leovi.gif") no-repeat center;
+	background-size: cover;
+	border-radius: 20vw 20vw 20vw 20vw;
+	top: 400px;
+	left: 700px;
+	position: fixed;
+	z-index: 20;
+}
+
+
+.item_karen{
+	height: 20vw;
+	width: 20vw;
+	/*background-color: black;*/
+	background: url("images/karen.gif") no-repeat center;
+	background-size: cover;
+	border-radius: 20vw 20vw 20vw 20vw;
+	top: 1500px;
+	left: 700px;
+	position: absolute;
+	z-index: -10;
+}
+
+
+.item_rulo{
+	height: 20vw;
+	width: 20vw;
+	/*background-color: black;*/
+	background: url("images/rulotico.gif") no-repeat center;
+	background-size: cover;
+	border-radius: 20vw 20vw 20vw 20vw;
+	top: 700px;
+	left: 2000px;
+	position: relative;
+	margin-left: 40vw;
+	z-index: 30;
+}
+
+
+.item_thrillerzombie{
+	height: 20vw;
+	width: 20vw;
+	/*background-color: black;*/
+	background: url("images/thrillerzombie.gif") no-repeat center;
+	background-size: cover;
+	border-radius: 20vw 20vw 20vw 20vw;
+	top: 350px;
+	left: 50px;
+	position: absolute;
+	z-index: -30;
+
+}
+
+
+.item_sherley{
+	height: 20vw;
+	width: 20vw;
+	/*background-color: black;*/
+	background: url("images/thrillerzombie.gif") no-repeat center;
+	background-size: cover;
+	border-radius: 20vw 20vw 20vw 20vw;
+	top: 350px;
+	left: 50px;
+	position: absolute;
+	z-index: -30;
+}
